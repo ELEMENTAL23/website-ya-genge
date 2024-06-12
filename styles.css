@@ -1,0 +1,88 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+    background-color: #2b6f8a;
+    padding: 80px;
+    text-align: center;
+}
+
+
+/* Main content styles */
+body 
+.home, .aboutUs, .menu{
+    background-color: #0a9e83;
+}, .aboutUs, .menu {
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    background-color: #2b6f8a;
+}
+.menu {
+    text-align: center;
+    padding: 80px;
+}
+.menu ul {
+    list-style-type: none;
+}
+.menu ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+table{
+    width: 400px;
+   border-spacing: 40px    
+}
+th{
+   text-align: left;   
+}
+table,th,td {
+    border: 1px solid #000
+}
+
+.container {
+    overflow: hidden; /* Clear the floats */
+    background-color: #2b6f8a;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    background-color: #2b6f8a;
+}
+.text {
+    float: center; /* Float the text div to the left */
+    width: 100%; /* Adjust the width as needed */
+    padding: 80; /* Add some spacing */
+    flex: 3;
+}
+.image {
+    float: center; /* Float the image div to the right */
+    width: 700; /* Adjust the width as needed */
+    height: 600;
+    padding: 20;
+    flex: 3;
+}
+
+
+
+
+/* Footer styles */
+footer {
+    background-color: #1e8b7f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
